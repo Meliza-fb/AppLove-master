@@ -1,0 +1,140 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+header{
+list-style: none;
+margin-top: 35px;
+font-size: 16px;
+text-transform: uppercase;
+margin-left: 160px;
+font-family: 'Raleway', sans-serif;
+color:#000033;
+}
+
+li{
+  float: left;
+  width: 110px;
+  height: 60px;
+}
+
+.home{
+  position: relative;
+  margin-top: 10px;
+  width: 1360px;
+  right: 10px;
+}
+
+.sec-home h2{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  bottom: 500px;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+}
+
+.sec-home h1{
+  color: white;
+  font-size: 54px;
+  text-align: center;
+  position: relative;
+  bottom: 500px;
+  font-family: 'Raleway',serif;
+  text-transform: uppercase;
+}
+
+.sec-home p{
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 540px;
+  text-transform: uppercase;
+  font-family:sans-serif;
+}
+
+.sec-home a{
+  width: 161px;
+  height: 50px;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  bottom: 100px;
+  position: absolute;
+  left: 550px;
+  background: #00cc66;
+  color: white;
+  text-transform: uppercase;
+}
